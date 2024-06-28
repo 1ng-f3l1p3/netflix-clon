@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.netflixapp')
 
 @section('contenido')
     <table class="table">

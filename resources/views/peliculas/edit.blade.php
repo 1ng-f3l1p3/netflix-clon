@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.netflixapp')
 
 @section('contenido')
 <form action="{{ route('peliculas.update', $pelicula) }}" method="POST" >

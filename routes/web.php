@@ -23,3 +23,15 @@ Route::get('/hola', function () {
 });
 
 Route::resource('peliculas', PeliculaController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+
+//usuario de login
+/*
+user: felipe de jesus chim chi
+correo: felipito_chch91@hotmail.com
+pwd: 1234567a
+*/
